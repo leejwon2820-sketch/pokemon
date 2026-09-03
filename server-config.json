@@ -1,0 +1,24 @@
+{
+  "port": 10000,
+  "world": {
+    "mapWidth": 80,
+    "mapHeight": 50,
+    "maps": [
+      "sea", "beach", "grass", "forest", "mountain", "cave", "elf", "lab",
+      "winter", "cemetery", "murim", "power", "volcano", "wasteland", "abyss", "polluted", "desert"
+    ]
+  },
+  "limits": {
+    "maxPlayers": 100,
+    "maxPayloadBytes": 65536,
+    "statePerSecond": 20,
+    "chatPer5Seconds": 6,
+    "claimPer5Seconds": 8,
+    "battleRequestPer10Seconds": 4,
+    "sameMapBattleDistance": 3,
+    "maxSameMapStateJump": 6,
+    "battleOfferTtlMs": 30000,
+    "pingIntervalMs": 25000,
+    "idleGraceMs": 70000
+  }
+}

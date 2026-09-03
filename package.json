@@ -1,0 +1,17 @@
+{
+  "name": "rain-matic-multiplayer-server",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Pokémon-style Rain Matic multiplayer world server compatible with the current HTML client.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

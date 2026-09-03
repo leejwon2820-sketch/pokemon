@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "description": "Global multiplayer world metadata. Individual game progression remains on each player's device.",
+  "maps": [
+    "sea", "beach", "grass", "forest", "mountain", "cave", "elf", "lab",
+    "winter", "cemetery", "murim", "power", "volcano", "wasteland", "abyss", "polluted", "desert"
+  ]
+}
